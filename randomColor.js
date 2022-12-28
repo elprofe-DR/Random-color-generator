@@ -19,6 +19,7 @@ $(document).ready(() => {
     return code;
   };
    $(".btn").on('click', () => {
+     $("#number").html(getRandomColor);
      $("body").css("background-color", getRandomColor());
    });
 });
