@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.random-number-chart {
+  width: 40%;
+  background-color: #0D4C92;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 200px;
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: white;
+  padding-top: 20px;
+}
+span {
+  color: white;
+  font-size: 3rem;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  color: white;
+  background-color: white;
+}
+
+.btntxt{
+  font-weight: 600;
+}
